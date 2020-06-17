@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="banner">Helthbot Database API</h1>
+        <div class="section editor">
+            <label for="name">Name
+                <input id="name" type="text" />
+            </label>
+            <br />
+            <label for="time1">Time 1
+                <input id="time1" type="time" />
+            </label>
+            <br />
+            <label for="time2">Time 2
+                <input id="time2" type="time" />
+            </label>
+            <br />
+            <label for="time3">Time 3
+                <input id="time3" type="time" />
+            </label>
+            <br />
+            <button id="create">Create</button>
+            <button id="update">Update</button>
+            <button id="delete">Delete</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="people">
+            <table>
+                <caption>People</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Time 1</th>
+                        <th>Time 2</th>
+                        <th>Time 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="error">
+        </div>
+    </div>
+</body>
+<script src="static/js/home.js"></script>
+</html>
